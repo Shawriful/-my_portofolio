@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            text-align: center;
+            color: #e74c3c;
+            font-family: "Times New Roman", serif;
+            font-size: 36px;
+            margin: 20px 0;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+    <script type="text/javascript">
+        // JavaScript functions here
+        function addProfile() 
+        {
+            document.getElementById("Profile").innerHTML = "Hey, there!<br/><b>I'm SHAWRIFUL ISLAM!</b><br/>Welcome to my LinkedIn profile! I am a results-driven professional with a diverse background in public health and logistics management. With over 1 year of experience as an Operations Manager in a clinic and more than 3 years as a Logistics Manager in a dynamic logistics company, I have honed my skills in optimizing processes, managing teams, and ensuring seamless operations";
+        }
+
+	
+	function addEducation()
+	{
+			document.getElementById("Educational Background").innerHTML = "High School at <q><b>B.E.H.S, No(3)</b></q> Buthidaung, Rakhine State, Myanmar (2016-2018) <br/>Diploma In Software Engineering at <q><b>Y-Max University</b></q>, Yangon, Myanmar (2021-2022)<br/>Bachelor of Art in History at <q><b>Sittway University</b></q> at Sittwe, Rakhine State, Myanmar (2022-Present)";
+	}
+
+	
+function addExperience()
+
+	{
+            document.getElementById("Experiences").innerHTML = "Operation Manager at <q><b>Naing Naing Clinic</b></q> (July 2018 - October 2019) in Rakhine State, Myanmar<br/>Junior Logistics Manager at <q><b>KM Green Ocean Logistics Co., Ltd</b></q> (January 2020 - Present) in Yangon, Myanmar"
+    }
+
+    function addCertificates() 
+    {
+            document.getElementById("Certificates").innerHTML = "Certificates in MS Office, Basic Software Engineering, Practical A+ at <q><b>KMD Institute</b></q><br/>Certificate in Advance A+, Networking Essentials at <q><b>Y-Max College</b></q><br/>IELTS Preparation Course at <q><b>British Council Myanmar</b></q><br/>Professional Certificate in Google Project Management <q><b>Coursera</b></q> Online Course";
+        }
+        
+        function addLanguages()
+        {
+            document.getElementById("Languages").innerHTML = "<b>English</b> (Fluent)<br/><b>Burmese</b> (Native)<br/><b>Urdu</b> (Fluent)<br/><b>Arabic</b> (Intermediate)";
+        }
+        
+        function addInterests() 
+        {
+            document.getElementById("Interests").innerHTML = "Reading</br>Coding<br/>Traveling<br/>Team Sports";
+        }
+        function addSkills() 
+        {
+            document.getElementById("Skills").innerHTML = "Strong Organizational Skill <br/>Multitasking Skill</br>Interpersonal Skill<br/>Problem Solving Skill<br/> Planning & Managing Skills<br/>Communication Skill<br/>Programming Skill";
+        }
+
+    
+    </script>
+</head>
+<body>
+    <header>
+        <b><i>This is My Portfolio</i></b>
+    </header>
+
+    <br/>
+
+    <main>
+        <button onclick="addProfile();">About Me</button>
+        <p id="Profile"></p>
+    </main>
+
+    <hr/>
+
+    <main>
+        <button onclick="addEducation();">My Education</button>
+        <p id="Educational Background"></p>
+    </main>
+
+    <hr/>
+
+    <main>
+        <button onclick="addExperience();">My Experiences</button>
+        <p id="Experiences"></p>
+    </main>
+
+    <hr/>
+
+    <main>
+        <button onclick="addCertificates();">My Certificates</button>
+        <p id="Certificates"></p>
+    </main>
+
+    <hr/>
+
+    <main>
+        <button onclick="addLanguages();">Languages</button>
+        <p id="Languages"></p>
+    </main>
+
+    <hr/>
+
+    <main>
+        <button onclick="addInterests();">Interests</button>
+        <p id="Interests"></p>
+    </main>
+
+    <hr/>
+
+    <main>
+        <button onclick="addSkills();">Skills</button>
+        <p id="Skills"></p>
+    </main>
+
+    <hr/>
+
+</body>
+</html>
